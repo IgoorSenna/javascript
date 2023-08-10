@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro projeto</title>
+    <style>
+        body {
+            background-color: rgb(79, 79, 163);
+            color: bisque;
+            font: normal 25pt Arial;
+        }
+        h1 {
+            color: blueviolet;
+        } /* Comentario em CSS*/
+    </style>
+</head>
+<body>
+    <h1>Ola, Mundo!</h1> <!-- Comentario em html-->
+    <p>Ja me livrei da maldição!</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um número: ')) /*Number.parseInt "Conversao para numero inteiro"*/
+        var n2 = Number(window.prompt('Digite outro número: ')) /*Number.parseFloat "Conversao para numero inteiro e descimal"*/
+        /*Se digitado so 'Number' de acordo com a nova versao ele converte automatico*/
+        var s = n1 + n2
+        window.alert ('A soma dos valores é: ' + String(s))
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
+        // (number + number) Adiçao
+        // (string + string) Concatenaçao
+       
+    </script>
+</body>
+</html>

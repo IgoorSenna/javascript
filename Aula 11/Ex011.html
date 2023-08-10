@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><strong>Sistema de Nacionalidade:</strong></h1> 
+    Selecione o seu pais: <input type="text" name="nas" id="nas">
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+    <script>
+            
+        function calcular () {
+            
+            var pais = window.document.querySelector('input#nas')
+            var res = window.document.querySelector('div#res')
+            var pinf = (nas.value)
+            
+            if (pinf == 'Brasil') {
+                res.innerHTML += `<strong>Voce é Brasileiro</strong>`
+
+            }else{
+                res.innerHTML += `<strong>Voce é Estrangeiro</strong>`
+
+            }
+        }
+    
+    window.document.write `Voce acabou de selecionar sua nacionalidade`
+
+    </script>
+    
+</body>
+</html>
